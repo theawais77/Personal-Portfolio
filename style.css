@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: "Epunda Slab", sans-serif;
+}
+
+body {
+    padding-left: 32%;
+    padding-right: 32%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    column-gap: 7%;
+}
+
+.image img{
+    border-radius: 50%;
+}
+
+
+
+#name-heading {
+    color: #fafafa;
+    font-size: 55px;
+    font-weight: bold;
+
+}
+
+#name-para {
+    color: #fafafa;
+    font-size: 20px;
+}
